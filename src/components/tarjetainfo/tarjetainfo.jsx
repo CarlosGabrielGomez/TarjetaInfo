@@ -1,28 +1,23 @@
-
-
 function TarjetaInfo() {
+  const description =
+    "La zapatilla deportiva negra tiene un diseño moderno y elegante, ideal para quienes buscan estilo y comodidad en su calzado. Su parte superior está fabricada en un material sintético de alta calidad, con un acabado mate que le da un aspecto sofisticado. El tono negro predomina en toda la zapatilla, pero detalles sutiles como costuras visibles en un gris oscuro o plata resaltan su contorno. La suela es de goma antideslizante, con un patrón de tracción que ofrece estabilidad y adherencia en diversas superficies.";
+  const name = "ShadowFlex";
   return (
-    <div className="div-tarjeta">
-      <div className="div-imagen">
-        <img
-          className="card-img"
-          src="./src/assets/images/zapatilla.png"
-          alt=""
-        />
+    <div className="contenedor">
+      <div className="fila">
+        <img src="./src/assets/images/zapatilla.png" alt="" />
       </div>
-      <div className="div-detalle">
-        <h2>Card tittle</h2>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <button className="btn-inf"> more information </button>
+      <h2>{name}</h2>
+
+      <div className="fila">
+        <p>{description}</p>
+      </div>
+
+      <div className="fila-boton">
+        <button id="click" className="boton-sumar">
+          Calcular
+        </button>
       </div>
     </div>
   );
