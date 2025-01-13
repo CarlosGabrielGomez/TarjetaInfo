@@ -1,0 +1,9 @@
+.Card {
+  padding: 1%;
+  border: groove 1em black;
+  border-radius: 2em;
+}
+
+.container {
+  padding: 2%;
+}
