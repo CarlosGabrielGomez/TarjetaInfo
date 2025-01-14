@@ -1,4 +1,4 @@
-// import "./Image.css";
+/* eslint-disable react/prop-types */
 
 const Body = ({ title, description }) => {
   return (

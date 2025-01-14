@@ -4,3 +4,13 @@ img {
   width: 300px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 800px) {
+  img {
+    height: 100px;
+     width: 100px;
+     /* flex: 100%;
+     max-width: 100%; */
+  }
+ 
+}
